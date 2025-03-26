@@ -1,14 +1,14 @@
 <?php
 
-namespace Juampi92\TestSEO;
+namespace CristianRico\TestSEO;
 
 use Illuminate\Support\Traits\Macroable;
-use Juampi92\TestSEO\Parser\HTMLParser;
-use Juampi92\TestSEO\Support\ArrayPluck;
-use Juampi92\TestSEO\Support\Memo;
-use Juampi92\TestSEO\Tags\AlternateHrefLangCollection;
-use Juampi92\TestSEO\Tags\Robots;
-use Juampi92\TestSEO\Tags\TagCollection;
+use CristianRico\TestSEO\Parser\HTMLParser;
+use CristianRico\TestSEO\Support\ArrayPluck;
+use CristianRico\TestSEO\Support\Memo;
+use CristianRico\TestSEO\Tags\AlternateHrefLangCollection;
+use CristianRico\TestSEO\Tags\Robots;
+use CristianRico\TestSEO\Tags\TagCollection;
 use Spatie\Url\Url;
 
 class SEOData

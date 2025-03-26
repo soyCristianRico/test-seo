@@ -1,9 +1,9 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests;
+namespace CristianRico\TestSEO\Tests;
 
-use Juampi92\TestSEO\Parser\HTMLParser;
-use Juampi92\TestSEO\SEOData;
+use CristianRico\TestSEO\Parser\HTMLParser;
+use CristianRico\TestSEO\SEOData;
 use PHPUnit\Framework\TestCase;
 
 class SEODataTest extends TestCase

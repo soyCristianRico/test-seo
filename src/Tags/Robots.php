@@ -1,6 +1,6 @@
 <?php
 
-namespace Juampi92\TestSEO\Tags;
+namespace CristianRico\TestSEO\Tags;
 
 use JsonSerializable;
 use Stringable;

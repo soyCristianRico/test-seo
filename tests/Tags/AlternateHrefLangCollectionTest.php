@@ -1,8 +1,8 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests\Tags;
+namespace CristianRico\TestSEO\Tests\Tags;
 
-use Juampi92\TestSEO\Tags\AlternateHrefLangCollection;
+use CristianRico\TestSEO\Tags\AlternateHrefLangCollection;
 use PHPUnit\Framework\TestCase;
 
 class AlternateHrefLangCollectionTest extends TestCase

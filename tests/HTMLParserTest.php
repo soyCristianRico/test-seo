@@ -1,8 +1,8 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests;
+namespace CristianRico\TestSEO\Tests;
 
-use Juampi92\TestSEO\Parser\HTMLParser;
+use CristianRico\TestSEO\Parser\HTMLParser;
 use PHPUnit\Framework\TestCase;
 
 class HTMLParserTest extends TestCase

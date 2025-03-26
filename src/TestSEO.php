@@ -1,11 +1,11 @@
 <?php
 
-namespace Juampi92\TestSEO;
+namespace CristianRico\TestSEO;
 
 use JsonSerializable;
-use Juampi92\TestSEO\Parser\HTMLParser;
-use Juampi92\TestSEO\SnapshotFormatters\SimpleSerializer;
-use Juampi92\TestSEO\SnapshotFormatters\SnapshotSerializer;
+use CristianRico\TestSEO\Parser\HTMLParser;
+use CristianRico\TestSEO\SnapshotFormatters\SimpleSerializer;
+use CristianRico\TestSEO\SnapshotFormatters\SnapshotSerializer;
 use PHPUnit\Framework\Assert;
 
 class TestSEO implements JsonSerializable

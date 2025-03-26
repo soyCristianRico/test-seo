@@ -1,8 +1,8 @@
 <?php
 
-namespace Juampi92\TestSEO\SnapshotFormatters;
+namespace CristianRico\TestSEO\SnapshotFormatters;
 
-use Juampi92\TestSEO\SEOData;
+use CristianRico\TestSEO\SEOData;
 
 interface SnapshotSerializer
 {

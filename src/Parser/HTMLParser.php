@@ -1,6 +1,6 @@
 <?php
 
-namespace Juampi92\TestSEO\Parser;
+namespace CristianRico\TestSEO\Parser;
 
 use DOMElement;
 use DOMNode;

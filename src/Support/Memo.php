@@ -1,6 +1,6 @@
 <?php
 
-namespace Juampi92\TestSEO\Support;
+namespace CristianRico\TestSEO\Support;
 
 trait Memo
 {

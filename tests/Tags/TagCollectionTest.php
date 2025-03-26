@@ -1,9 +1,9 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests\Tags;
+namespace CristianRico\TestSEO\Tests\Tags;
 
-use Juampi92\TestSEO\Support\ArrayPluck;
-use Juampi92\TestSEO\Tags\TagCollection;
+use CristianRico\TestSEO\Support\ArrayPluck;
+use CristianRico\TestSEO\Tags\TagCollection;
 use PHPUnit\Framework\TestCase;
 
 class TagCollectionTest extends TestCase

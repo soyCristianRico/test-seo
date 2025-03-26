@@ -1,8 +1,8 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests;
+namespace CristianRico\TestSEO\Tests;
 
-use Juampi92\TestSEO\Support\ArrayPluck;
+use CristianRico\TestSEO\Support\ArrayPluck;
 use PHPUnit\Framework\TestCase;
 
 class ArrayPluckTest extends TestCase

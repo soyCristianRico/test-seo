@@ -1,8 +1,8 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests;
+namespace CristianRico\TestSEO\Tests;
 
-use Juampi92\TestSEO\TestSEO;
+use CristianRico\TestSEO\TestSEO;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 

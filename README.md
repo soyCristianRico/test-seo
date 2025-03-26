@@ -1,9 +1,9 @@
 # Test SEO
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/juampi92/test-seo.svg?style=flat-square)](https://packagist.org/packages/juampi92/test-seo)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/juampi92/test-seo/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/juampi92/test-seo/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/juampi92/test-seo/pint.yml?branch=main&label=code-style&style=flat-square)](https://github.com/juampi92/test-seo/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/juampi92/test-seo.svg?style=flat-square)](https://packagist.org/packages/juampi92/test-seo)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/CristianRico/test-seo.svg?style=flat-square)](https://packagist.org/packages/CristianRico/test-seo)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/CristianRico/test-seo/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/CristianRico/test-seo/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/CristianRico/test-seo/pint.yml?branch=main&label=code-style&style=flat-square)](https://github.com/CristianRico/test-seo/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/CristianRico/test-seo.svg?style=flat-square)](https://packagist.org/packages/CristianRico/test-seo)
 
 An easy-to-use package for testing SEO. The package allows you to extract SEO tags from a given HTML and verify that the SEO structure is correct.
 
@@ -23,7 +23,7 @@ An easy-to-use package for testing SEO. The package allows you to extract SEO ta
 You can install the package via composer:
 
 ```bash
-composer require juampi92/test-seo --dev
+composer require CristianRico/test-seo --dev
 ```
 
 ## Usage
@@ -122,13 +122,13 @@ Here are the available methods:
 | `title()`             | `?string`                                                                                                                   | `<title>{this}</title>`                                     |
 | `description()`       | `?string`                                                                                                                   | `<meta name="description" content="{this}">`                |
 | `image()`             | `?Url` [🔍](https://github.com/spatie/url)                                                                                                                   | `<meta name="image" content="{this}">`                      |
-| `robots()`            | `Robots` [🔍](https://github.com/juampi92/test-seo/blob/main/src/Tags/Robots.php)                                           | `<meta name="robots" content="{this}">`                     |
+| `robots()`            | `Robots` [🔍](https://github.com/CristianRico/test-seo/blob/main/src/Tags/Robots.php)                                           | `<meta name="robots" content="{this}">`                     |
 | `canonical()`         | `?Url` [🔍](https://github.com/spatie/url)                                                                                  | `<link rel="canonical" href="{this}">`                      |
 | `prev()`              | `?Url` [🔍](https://github.com/spatie/url)                                                                                  | `<link rel="prev" href="{this}">`                           |
 | `next()`              | `?Url` [🔍](https://github.com/spatie/url)                                                                                  | `<link rel="next" href="{this}">`                           |
-| `openGraph()`         | `TagCollection` [🔍](https://github.com/juampi92/test-seo/blob/main/src/Tags/TagCollection.php)                             | `<meta property="og:{key}" content="{value}">`                  |
-| `twitter()`           | `TagCollection` [🔍](https://github.com/juampi92/test-seo/blob/main/src/Tags/TagCollection.php)                             | `<meta name="twitter:{key}" content="{value}">`             |
-| `alternateHrefLang()` | `AlternateHrefLangCollection` [🔍](https://github.com/juampi92/test-seo/blob/main/src/Tags/AlternateHrefLangCollection.php) | `<link name="alternate" hreflang="{hreflang}" href={href}>` |
+| `openGraph()`         | `TagCollection` [🔍](https://github.com/CristianRico/test-seo/blob/main/src/Tags/TagCollection.php)                             | `<meta property="og:{key}" content="{value}">`                  |
+| `twitter()`           | `TagCollection` [🔍](https://github.com/CristianRico/test-seo/blob/main/src/Tags/TagCollection.php)                             | `<meta name="twitter:{key}" content="{value}">`             |
+| `alternateHrefLang()` | `AlternateHrefLangCollection` [🔍](https://github.com/CristianRico/test-seo/blob/main/src/Tags/AlternateHrefLangCollection.php) | `<link name="alternate" hreflang="{hreflang}" href={href}>` |
 | `images()`            | `array<array{src: string, alt: string, title: string}>`                                                                     | All images in the page. `<img src="...">`                   |
 | `h1s()`               | `array<string>`                                                                                                             | All H1 in the page. `<h1>{this}</h1>`                       |
 | `h2s()`               | `array<string>`                                                                                                             | All H2 in the page. `<h2>{this}</h2>`                       |
@@ -179,7 +179,7 @@ $json = json_encode($seo);
 
 ```php
 use function Spatie\Snapshots\{assertMatchesSnapshot, assertMatchesJsonSnapshot};
-use Juampi92\TestSEO\TestSEO;
+use CristianRico\TestSEO\TestSEO;
 
 test('landing page SEO', function () {
     $response = $this->get('/');
@@ -200,7 +200,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Juan Pablo Barreto](https://github.com/juampi92)
+- [Juan Pablo Barreto](https://github.com/CristianRico)
 - [All Contributors](../../contributors)
 
 ## License

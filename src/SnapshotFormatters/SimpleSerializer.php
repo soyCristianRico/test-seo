@@ -1,9 +1,9 @@
 <?php
 
-namespace Juampi92\TestSEO\SnapshotFormatters;
+namespace CristianRico\TestSEO\SnapshotFormatters;
 
-use Juampi92\TestSEO\SEOData;
-use Juampi92\TestSEO\Tags\TagCollection;
+use CristianRico\TestSEO\SEOData;
+use CristianRico\TestSEO\Tags\TagCollection;
 
 class SimpleSerializer implements SnapshotSerializer
 {

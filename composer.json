@@ -7,12 +7,12 @@
     "testing",
     "SEO"
   ],
-  "homepage": "https://github.com/juampi92/test-seo",
+  "homepage": "https://github.com/CristianRico/test-seo",
   "license": "MIT",
   "authors": [
     {
       "name": "Juan Pablo Barreto",
-      "email": "juampi92@gmail.com",
+      "email": "CristianRico@gmail.com",
       "role": "Developer"
     }
   ],
@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Juampi92\\TestSEO\\": "src"
+      "CristianRico\\TestSEO\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Juampi92\\TestSEO\\Tests\\": "tests"
+      "CristianRico\\TestSEO\\Tests\\": "tests"
     }
   },
   "scripts": {

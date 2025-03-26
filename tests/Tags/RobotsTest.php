@@ -1,8 +1,8 @@
 <?php
 
-namespace Juampi92\TestSEO\Tests\DTOs;
+namespace CristianRico\TestSEO\Tests\DTOs;
 
-use Juampi92\TestSEO\Tags\Robots;
+use CristianRico\TestSEO\Tags\Robots;
 use PHPUnit\Framework\TestCase;
 
 class RobotsTest extends TestCase
